@@ -17,16 +17,14 @@ body {
     grid-gap: 20px;
     max-width: 475px;
     margin: auto;
-    /* background: #333; */
 }
 .item {
-    /* background: rgb(119, 0, 255); */
-    background: rgb(0, 128, 255);
+    background: rgb(255, 230, 8);
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #f3f3f3;
+    color: #2d2d2d;
     padding: 20px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
@@ -63,7 +61,6 @@ body {
 .se-resize {cursor: se-resize;}
 .sw-resize {cursor: sw-resize;}
 .text {cursor: text;}
-.url {cursor: url(myBall.cur),auto;}
 .w-resize {cursor: w-resize;}
 .wait {cursor: wait;}
 .zoom-in {cursor: zoom-in;}
